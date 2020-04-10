@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE teiCorpus SYSTEM "Codifica_Cartoline.dtd">
+<?xml-stylesheet type="text/xsl" href="stilecartoline.xsl"?>
+
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader xml:id="teiHeader">
+		<fileDesc>
+			<titleStmt>
+				<title xml:id="titprinc">Riconoscimenti</title>
+				<!-- TRASCRITTORE nome e cognome-->
+				<respStmt xml:id="resp1">
+					<resp>Transcription by</resp>
+					<name ref="#XZ1">Gianmario Cabizza</name>
+				</respStmt>
+				<!-- ENTE DI APPARTENENZA -->
+				<respStmt xml:id="resp2">
+					<resp>Ente di Appartenenza</resp>
+					<name type="comune" xml:id="SP">Comune di La Spezia</name>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition xml:id="edit">
+					Università di Pisa, Informatica Umanistica
+					<!-- COMPILAZIONE -->
+					<date when="2018">2018</date>
+				</edition>
+				<!-- NOME COMPILATORE -->
+				<respStmt xml:id="resp3">
+					<resp>Encoding by</resp>
+					<name xml:id="XY1">Tommaso Castagneto</name>
+				</respStmt>
+				<!-- REFERENTE SCIENTIFICO sempre Nome Cognome, XY2 è sempre Tommaso Castagneto, XZ1 è chi interviene sulla schedatura già fatta per correzioni e aggiunte-->
+				<respStmt xml:id="resp4">
+					<resp>Compilatore</resp>
+					<name ref="XY1">Tommaso Castagneto</name>
+					<name ref="#XZ1">Gianmario Cabizza</name>
+				</respStmt>
+				<respStmt xml:id="resp5">
+					<resp>Responsabile scientifico</resp>
+					<name xml:id="GP">Giacomo Paolicchi</name>
+					<name xml:id="ES">Enrica Salvatori</name>
+				</respStmt>
+				<respStmt xml:id="resp6">
+					<resp>Funzionario responsabile</resp>
+					<name xml:id="ER">E. Ratti</name>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt xml:id="pub">
+				<publisher>Unipi</publisher>
+				<pubPlace>Pisa</pubPlace>
+				<availability>
+					<p>Available under licence only</p>
+				</availability>
+				<date when="2020">2020</date>
+				<distributor>LabCD</distributor>
+				<address xml:id="lab">
+					<addrLine>Laboratorio di Cultura Digitale - Università di Pisa,</addrLine>
+					<addrLine>Pisa</addrLine>
+				</address>
+			</publicationStmt>
+			<notesStmt xml:id="none1">
+				<note/>
+			</notesStmt>
+			<sourceDesc xml:id="none">
+				<p />
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	
+	<!--inclusione file esterni-->
+	
+	
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="cartolina1.xml">
+		<xi:fallback />
+	</xi:include>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="cartolina53.xml">
+		<xi:fallback />
+	</xi:include>
+	
+	
+	<!--_____________________-->
+
+</teiCorpus>

@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE TEI SYSTEM "Codifica_Cartoline.dtd">
+
+		<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tei1">
+			<teiHeader>
+				<fileDesc>
+					<titleStmt xml:id="titleStmt1">
+						<!-- TITOLO NB: non corrisponde completamente alla voce TITOLO della tabella perché si tratta del titolo della edizione digitale -->
+						<title xml:id="titolo1">Serenata a Lola</title>
+						<!-- TRASCRITTORE nome e cognome-->
+						<respStmt>
+							<resp>Transcription by</resp>
+							<name ref="#XZ1">Gianmario Cabizza</name>
+						</respStmt>
+
+						<!-- ENTE DI APPARTENENZA -->
+						<respStmt>
+							<resp>Ente di Appartenenza</resp>
+							<name type="comune" ref="SP">Comune di La Spezia</name>
+						</respStmt>
+
+					</titleStmt>
+
+					<editionStmt xml:id="editionStmt1">
+						<!-- COMPILAZIONE -->
+						<edition>Università di Pisa, Informatica Umanistica 
+							<date>2020</date>
+						</edition>
+
+						<!-- NOME COMPILATORE -->
+						<respStmt>
+							<resp>Encoding by</resp>
+							<name ref="#XY1">Tommaso Castagneto</name>
+						</respStmt>
+
+						<!-- REFERENTE SCIENTIFICO sempre Nome Cognome, XY2 è sempre Tommaso Castagneto, XZ1 è chi interviene sulla schedatura già fatta per correzioni e aggiunte-->
+						<respStmt>
+							<resp>Compilatore</resp>
+							<name ref="#XY1">Tommaso Castagneto</name>
+							<name ref="#GC">Gianmario Cabizza</name>
+						</respStmt>
+						
+						<respStmt>
+							<resp>Responsabile scientifico</resp>
+							<name ref="#GP">Giacomo Paolicchi</name>
+							<name ref="#ES">Enrica Salvatori</name>
+						</respStmt>
+						
+						<respStmt>
+							<resp>Funzionario responsabile</resp>
+							<name ref="#ER">E. Ratti</name>
+						</respStmt>
+					</editionStmt>
+
+					<publicationStmt xml:id="publicationStmt1">
+						<publisher>Unipi</publisher>
+						<pubPlace>Pisa</pubPlace>
+						<availability>
+							<p>Available under licence only</p>
+						</availability>
+						<date when="2020">2020</date>
+						<distributor>LabCD</distributor>
+						<address>
+							<addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+							<addrLine>Pisa</addrLine>
+						</address>
+					</publicationStmt>
+					<!-- NOTE NB: mettere qui tutto ciò che non rientra nella codifica -->
+					<notesStmt xml:id="noteStmt1">
+						<note>Sul retro si legge: "ARS MINIMA", corredata dal relativo logo della colllana; "XI ESPOSIZIONE INTERNAZIONALE D'ARTE DELLA CITTÀ DI VENEZIA - MCMXIV"; "N.276 - Casa Editrice d'Arte Bestetti e Tumminelli - Milano"; e le indicazioni sull'autore e il titolo dell'opera in varie lingue: "LUIGI CONCONI - "Serenata a Lola, Sérénade à Lola Serenade zu Lola Serenade to Lola.
+						</note>
+					</notesStmt>
+					<sourceDesc xml:id="sourceDesc1">
+						<bibl>
+							<!-- TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico 
+								registrandolo entro parentesi quadre [Venere al bagno] ma indicando dentro la codifica come qui sotto esemplificato-->
+							<title xml:id="title1" type="custom" resp="#ES">Serenata a Lola</title>
+							<author xml:id="auth1">Casa Editrice d'Arte Bestetti e Tumminelli</author>
+							<author xml:id="auth2">Luigi Conconi</author>
+							<!-- PRODUZIONE Chi ha prodotto / pubblicato la cartolina. Se non presente togliere il tag  -->
+							<publisher>Casa Editrice d'Arte Bestetti e Tumminelli</publisher>
+							<!-- LUOGO -->
+							<pubPlace>Milano</pubPlace>
+							<!-- CRONOLOGIA, attenzione si riferisce solo alla data di stampa -->
+							<date>1914</date>
+						</bibl>
+						<msDesc>
+							<!-- COLLOCAZIONE SPECIFICA -->
+							<!-- CODICE IDENTIFICATIVO -->
+							<msIdentifier>
+								<country>Italia</country>
+								<settlement>La Spezia (SP)</settlement>
+								<!-- COLLOCAZIONE SPECIFICA -->
+								<repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei
+									cimeli garibaldini e della Prima Guerra Mondiale</repository>
+								<!-- CODICE IDENTIFICATIVO -->
+								<idno xml:id="id1">7694_001_001/002</idno>
+							</msIdentifier>
+							<!-- Informazioni sul contenuto della cartolina -->
+							<!-- DESCRIZIONE -->
+							<msContents>
+								<summary>Cartolina Artistica</summary>
+								<textLang>Italiano</textLang>
+							</msContents>
+							
+							<physDesc>
+								<objectDesc>
+									<supportDesc>
+										<support>
+											<objectType>Cartolina</objectType>
+											<!-- MATERIALI -->
+											<material>Carta</material>
+											<!-- DIMENSIONE -->
+											<dimensions unit="cm">
+												<height>9</height>
+												<width>14</width>
+											</dimensions>
+											<stamp>francobollo - Regno d'Italia</stamp>
+										</support>
+										<!-- CONSERVAZIONE 
+										buono = non occorrono interventi di restauro;
+										discreto = perfettamente leggibile in tutte le componenti ma con rischi di deterioramento per usura;
+										mediocre = perfettamente leggibile, ma mancano alcune sue parti;
+										cattivo = intaccato da parassiti o deteriorato da cattivi interventi passati o mancanti di parti rilevanti, necessita di restauro-->
+										<condition>Buono</condition>
+									</supportDesc>
+								</objectDesc>
+								<additions>
+								
+								Sul retro, numero di catalogazione, manoscritto. <idno xml:id="numCatalogo">1</idno> <!--Codificare numero catalogo-->
+									
+									Sul retro, logo, stampato, della collana di edizione <p xml:id="infRetro1_1">ARS MINIMA.</p>
+									
+								Sul retro, scritta stampata, <p xml:id="infRetro1_2">"N.276 - Casa Editrice Bestetti e Tumminelli - Milano".</p>
+								
+								Sul retro, scritta stampata, <p xml:id="infRetro1_3">"XI ESPOSIZIONE INTERNAZIONALE D'ARTE DELLA CITTÀ DI VENEZIA - MCMXIV".</p>
+								
+								Sul retro, stampata, indicazione dell'autore del dipinto nella parte frontale: <p xml:id="infRetro1_4">"LUIGI CONCONI"</p> con titolo dell'opera e traduzioni del titolo in varie lingue:
+									<p xml:id="infRetro1_5">"Serenata a Lola", "Sérénade à Lola", "Serenade zu Lola", "Serenade to Lola".</p>
+									
+									<!-- (2)INSERIRE_Alte_ADDITIONS INSERIRE_Alte_ADDITIONS INSERIRE_Alte_ADDITIONS INSERIRE_Alte_ADDITIONS (2) -->
+									
+								</additions>
+							</physDesc>
+
+						</msDesc>
+
+						<!-- NOMI -->
+						
+						<listPerson>
+							<person xml:id="GC">
+								<persName>
+									<forename>Giovanni</forename>
+									<surname>Coliola</surname>
+								</persName>
+								<sex>M</sex>
+							</person>
+
+							<person xml:id="OT">
+								<persName>
+									<forename>Oliva</forename>
+									<surname>Turtura</surname>
+								</persName>
+								<sex>F</sex>
+								<note/>
+							</person>
+
+							<person xml:id="LC">
+								<persName>
+									<forename>Luigi</forename>
+									<surname>Conconi</surname>
+								</persName>
+								<occupation n="2">[artista]</occupation>
+								<sex>M</sex>
+								<note/>
+							</person>
+						</listPerson>
+
+						<listPlace>
+							<place xml:id="RV">
+								<placeName>Ravenna</placeName>
+								<settlement type="località">città</settlement>
+								<district type="comune">Ravenna</district>
+								<district type="provincia">RV</district>
+								<country key="N">IT</country>
+							</place>
+						</listPlace>
+					</sourceDesc>
+				</fileDesc>
+				
+				<profileDesc>
+					<correspDesc>
+						<correspAction type="sent">
+							<persName ref="#GC">Giovanni</persName>
+							<placeName ref="#RA">Ravenna</placeName>
+							<!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+							<date type="postage" when="19191119">1919/11/19</date>
+							<date type="writing" when="19161117">1916/11/17</date>
+						</correspAction>
+						<correspAction type="received">
+							<persName ref="#OT">Oliva Turtura</persName>
+							<placeName ref="#RV">Ravenna</placeName>
+						</correspAction>
+					</correspDesc>
+
+					<textClass>
+						<keywords>
+							<term>Cartolina </term>
+							<!-- tipologia -->
+							<term>Cartolina Artistica </term>
+							<!-- descrizione -->
+							<term>Donna che ascolta una serenata</term>
+							<term>Serenata a Lola</term>
+						</keywords>
+					</textClass>
+					<langUsage>
+						<language ident="it-IT">italiano</language>
+					</langUsage>
+				</profileDesc>
+			</teiHeader>
+
+			<!-- DEFINIZIONE -->
+			<text type="cartolina" xml:id="card1">
+				<!-- TRASCRIZIONE -->
+				<body>
+					<div type="front" xml:id="cardFront">
+						<!-- Descizione fronte immagine -->
+						<figure xml:id="fig1">
+							<graphic url="pics/7694-001F.jpg" />
+
+								<figDesc>
+									Donna assorta, vestita di bianco, in una notte stellata, dipinta nell'atto di ascoltare una serenata a lei dedicata.
+									Alle sue spalle una struttura lignea, la parete della balconata, sulla quale si proietta la sua ombra e dalla quale sbucano, in alto a sinistra, dei fiori.
+									Sul lato destro si nota una vistosa zona bianca rettangolare.
+								</figDesc>
+								
+								
+							<head>
+								<title xml:id="title">Serenata a Lola</title>
+							</head>
+
+						</figure>
+					</div>
+					<div type="rear" xml:id="cardRear">
+						<div xml:id="text1" type="message">
+
+							<p xml:id="testoRetro">
+								<lb/>
+								<placeName ref="#RA">Ravenna</placeName>
+								<w>li</w>
+								<date when="1916-11-17" xml:id="dateRear">
+									<num>17</num>
+									<pc>/</pc>
+									<num>11</num>
+									<pc>-</pc>
+									<num>1916</num>
+									<pc>.</pc>
+								</date>
+							</p>
+							<!--Testo Lettera-->
+							<p xml:id="testoRetro1_1">
+								<!-- <lb/> -->
+								<phr>
+									<w>Anelo</w>
+									<w>rivederti</w>
+									<lb/>
+									<w>Affettuosissimi</w>
+								</phr>
+								<!-- <lb/> -->
+							</p>
+							<p xml:id="testoRetro1_2">
+								<persName ref="#GC"> <!--inseriti-->
+									Giovannino
+								</persName>
+							</p>
+							<cb/>
+						</div>
+						<!-- Indirizzo e destinatario della cartolina-->
+						<div xml:id="AddDest1">
+							<p xml:id="indirizzoRetro">
+								<w>Alla Signorina</w>
+								<lb/>
+
+								<persName ref="#OT">
+									<forename>Oliva</forename>
+									<surname>Turtura</surname>
+								</persName>
+								<lb/>
+								<address>
+									<addrLine><w>Via</w>
+										<persName>
+											<forename>Girolamo</forename>
+											<surname>Rossi</surname>
+										</persName>
+										<num>58</num>
+									</addrLine>
+								</address>
+								<lb/>
+								<placeName ref="#RV">Ravenna</placeName>
+							</p>
+
+						</div>
+						<div xml:id="timbri1" type="destination" >
+							<p>
+
+								<stamp type="postmark"> 
+									<mentioned><unclear reason="illegible"><pc>.</pc>POSTA</unclear></mentioned>
+									<date when="1919-11-20">
+									<num>20</num>
+									<num>11</num>
+									<num>1919</num>
+								</date>
+								</stamp>
+
+
+								<stamp type="postage">francobollo da 5 centesimi del Regno d'Italia</stamp>
+							</p>
+							<p xml:id="address1">
+								<address>
+									<addrLine>Signorina</addrLine>
+									<addrLine>
+										<persName ref="#OT">Oliva Turtura</persName>
+									</addrLine>
+									<addrLine>Via Girolamo Rossi 58</addrLine>
+									<addrLine>
+										<placeName ref="#RV">Ravenna</placeName>
+									</addrLine>
+									<addrLine/>
+								</address>
+							</p>
+						</div>
+
+					</div>
+				</body>
+			</text>
+
+
+
+			<!--Marcatura Grafica-->
+			<facsimile xml:id="facsimile1">
+
+			<surface>
+				<!--Retro della cartolina 1-->
+				<graphic xml:id="retro_postcard_01" url="pics/7694-001R.jpg" width="1625px" height="1038px" />
+
+
+				<zone xml:id="infRetro1_6" type="rect3747" ulx="95" uly="8" lrx="265" lry="230"/> <!--TIMBRO-->
+
+				<zone xml:id="infRetro1_7" type="rect3747" ulx="11" uly="80" lrx="81" lry="955"/> <!--best_tumm-->
+
+				<zone xml:id="testoRetro1_3" type="rect3747" ulx="160" uly="200" lrx="835" lry="870"/> <!--testo-->
+
+				<zone xml:id="indirizzoRetro1_1" type="rect3747" ulx="770" uly="360" lrx="1618" lry="955"/> <!--indirizzo-->
+
+				<zone xml:id="timbri1_1" type="rect3747" ulx="1210" uly="16" lrx="1580" lry="396"/> <!--timbro-->
+
+				<zone xml:id="infRetro1_8" type="rect3747" ulx="80" uly="870" lrx="700" lry="1000"/> <!--titoli_quadro-->
+
+				<zone xml:id="infRetro1_9" type="rect3747" ulx="280" uly="35" lrx="1380" lry="165"/> <!--esposizione-->
+
+				<zone xml:id="numCatalogo1_1" type="rect3747" ulx="1510" uly="26" lrx="1590" lry="116"/> <!--timbro-->
+
+			</surface>
+			</facsimile>
+		</TEI>
+
+<!--#####################################################################-->
+

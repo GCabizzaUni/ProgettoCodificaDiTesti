@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE TEI SYSTEM "Codifica_Cartoline.dtd">
+
+		<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tei2">
+			<teiHeader>
+				<fileDesc>
+					<titleStmt xml:id="titleStmt2">
+						<!-- TITOLO NB: non corrisponde completamente alla voce TITOLO della tabella perché si tratta del titolo della edizione digitale -->
+						<title xml:id="titolo2">Vieilles bretonnes au jardin...</title>
+						<!-- TRASCRITTORE nome e cognome-->
+						<respStmt xml:id="resp1_2">
+							<resp>Trascrizione a cura di:</resp>
+							<name ref="#XZ1">Gianmario Cabizza</name>
+						</respStmt>
+
+						<!-- ENTE DI APPARTENENZA -->
+						<respStmt xml:id="resp2_2">
+							<resp>Ente di Appartenenza</resp>
+							<name type="comune" ref="SP">Comune di La Spezia</name>
+						</respStmt>
+
+					</titleStmt>
+
+					<editionStmt xml:id="editionStmt2">
+						<!-- COMPILAZIONE -->
+						<edition>Università di Pisa, Informatica Umanistica
+							<date>2020</date>
+						</edition>
+
+						<!-- NOME COMPILATORE -->
+						<respStmt>
+							<resp>Encoding by</resp>
+							<name ref="#XY1">Tommaso Castagneto</name>
+						</respStmt>
+
+						<!-- REFERENTE SCIENTIFICO sempre Nome Cognome, XY2 è sempre Tommaso Castagneto, XZ1 è chi interviene sulla schedatura già fatta per correzioni e aggiunte-->
+						<respStmt>
+							<resp>Compilatore</resp>
+							<name ref="#XY2">Tommaso Castagneto</name>
+							<name ref="#XZ1">Gianmario Cabizza</name>
+						</respStmt>
+						<respStmt>
+							<resp>Responsabile scientifico</resp>
+							<name ref="#GP">Giacomo Paolicchi</name>
+							<name ref="#ES">Enrica Salvatori</name>
+						</respStmt>
+						<respStmt>
+							<resp>Funzionario responsabile</resp>
+							<name ref="#ER">E. Ratti</name>
+						</respStmt>
+					</editionStmt>
+
+					<publicationStmt xml:id="publicationStmt2">
+						<publisher>Unipi</publisher>
+						<pubPlace>Pisa</pubPlace>
+						<availability>
+							<p>Available under licence only</p>
+						</availability>
+						<date when="2020">2020</date>
+						<distributor>LabCD</distributor>
+						<address>
+							<addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+							<addrLine>Pisa</addrLine>
+						</address>
+					</publicationStmt>
+					<!-- NOTE NB: mettere qui tutto ciò che non rientra nella codifica -->
+					<notesStmt xml:id="noteStmt2">
+						<note>						
+						Nella superficie del retro sono presenti zone particolarmente rovinate rispetto al resto delle superfici.
+						
+						Il timbro non solo è leggermente rovinato, ma probabilmente già in origine era poco leggibile.
+						
+						Nel fronte, la striscia recante le informazioni di edizione, autore, titolo è danneggiata al punto di non essere leggibile.
+						Le informazioni sono state recuperate grazie all'immagine originale, disponibile su internet.
+						</note>
+					</notesStmt>
+					<sourceDesc xml:id="sourceDesc2">
+						<bibl>
+							<!-- TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico 
+								registrandolo entro parentesi quadre [Venere al bagno] ma indicando dentro la codifica come qui sotto esemplificato-->
+							<title xml:id="title2" type="custom" resp="#ES">Vieilles bretonnes au jardin...</title>
+							<author xml:id="auth1_2">CLEMENT Max</author>
+							<publisher>[Selecta]</publisher>
+							<!-- LUOGO -->
+							<pubPlace>Francia</pubPlace>
+							<!-- CRONOLOGIA, attenzione si riferisce solo alla data di stampa -->
+							<date precision="low" when="1913">[1913](approssimativa)</date>
+						</bibl>
+						<msDesc>
+
+							<msIdentifier>
+								<country>Italia</country>
+								<settlement>La Spezia (SP)</settlement>
+
+								<repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei
+									cimeli garibaldini e della Prima Guerra Mondiale</repository>
+								<!--Codice Identificativo-->
+								<idno xml:id="id2">7694_053_001/002</idno>
+							</msIdentifier>
+							<!-- Informazioni sul contenuto della cartolina -->
+							<msContents>
+								<summary>Cartolina Artistica</summary>
+								<textLang>Italiano</textLang>
+							</msContents>
+							
+							<physDesc>
+								<objectDesc>
+									<supportDesc>
+										<support>
+											<objectType>Cartolina</objectType>
+											<material>Carta</material>
+											<dimensions unit="cm">
+												<height>9</height>
+												<width>14</width>
+											</dimensions>
+											<stamp>francobollo - Regno d'Italia</stamp>
+										</support>
+										<!-- CONSERVAZIONE 
+										buono = non occorrono interventi di restauro;
+		discreto = perfettamente leggibile in tutte le componenti ma con rischi di deterioramento per usura;
+		mediocre = perfettamente leggibile, ma mancano alcune sue parti;
+		cattivo = intaccato da parassiti o deteriorato da cattivi interventi passati o mancanti di parti rilevanti, necessita di restauro-->
+										<condition>Buono</condition>
+									</supportDesc>
+								</objectDesc>
+								<additions>								
+								
+								Nel fronte della cartolina, alla destra dell'immagine si nota un'area (rovinata, poco leggibile) dove si possono leggere:
+								
+								<p xml:id="infRetro2_1">"SALON de PARIS 1913"</p>
+								
+								Il titolo dell'immagine stampata, titolo della cartolina: <p xml:id="infRetro2_2">"VIEILLES BRETONNES AU JARDIN BODELIO"</p>
+								
+								<p xml:id="infRetro2_3">"143 M.CLEMENT"</p>
+								
+								<p xml:id="infRetro2_4">"ALTE FRAUEN AUS DER BRETAGNE"</p>
+								
+								<p xml:id="infRetro2_5">"LORIENT"</p>
+								
+								<p xml:id="infRetro2_6">"Selecta"</p>
+								
+								
+								
+								Sul retro (angolo superiore sinistro) è presente il numero di catalogo (manostcritto). <idno xml:id="numCatalogo1_2">53</idno>
+								
+								Nel lato inferiore sinistro è possibile leggere: <p xml:id="infRetro2_7">"MADE IN FRANCE"</p> indicazione usata dall'editore per indicare la provenienza della cartolina, la Francia.
+								
+								Sempre sul retro, nell'angolo superiore destro sono presenti:
+								
+								<p xml:id="timbri1_2">Il francobollo da 5 centesimi delle Poste Italiane, attaccato in posizione orizzontale.</p>
+								
+								<p xml:id="timbri1_3">Il timbro postale, recante la medesima data indicata nel testo manoscritto (4.1.17), il cui testo circostante però è difficile da leggere a causa del suo stato di conservazione.</p>
+
+								</additions>
+							</physDesc>
+
+						</msDesc>
+
+						<!--Persone-->
+						<listPerson>
+							<person xml:id="GC2">
+								<persName>
+									<forename>Giovanni</forename>
+									<surname>Coliola</surname>
+								</persName>
+								<sex>M</sex>
+							</person>
+
+							<person xml:id="OT2">
+								<persName>
+									<forename>Oliva</forename>
+									<surname>Turtura</surname>
+								</persName>
+								<sex>F</sex>
+								<note/>
+							</person>
+
+							<person xml:id="LC2">
+								<persName>
+									<forename>Luigi</forename>
+									<surname>Conconi</surname>
+								</persName>
+								<occupation n="2">[artista]</occupation>
+								<sex>M</sex>
+								<note/>
+							</person>
+
+
+						</listPerson>
+
+						<listPlace>
+							<place xml:id="RV2">
+								<placeName>Ravenna</placeName>
+								<settlement type="località">città</settlement>
+								<district type="comune">Ravenna</district>
+								<district type="provincia">RV</district>
+								<country key="N">IT</country>
+							</place>
+
+						</listPlace>
+						<listOrg>
+							<org xml:id="N32">
+								<orgName type="N"/>
+								<desc>Comune di La Spezia</desc>
+							</org>
+						</listOrg>
+					</sourceDesc>
+					
+				</fileDesc>
+
+				<profileDesc>
+					<correspDesc>
+						<correspAction type="sent">
+							<persName ref="#GC">Giovanni[Giovannino]</persName>
+							<placeName ref="#RA">Ravenna</placeName>
+							
+							<date type="postage" when="19170104">4/1/1917</date>
+							<date type="writing" when="19170104">4/1/1917</date>
+						</correspAction>
+						<correspAction type="received">
+							<persName ref="#OT">Oliva Turtura</persName>
+							<placeName ref="#RV">Ravenna</placeName>
+						</correspAction>
+					</correspDesc>
+
+					<textClass>
+						<keywords>
+							<term>Cartolina</term>
+							<!-- tipologia -->
+							<term>Cartolina Artistica</term>
+							<!-- descrizione -->
+							<term>Donne anziane, sedute. La donna a destra cuce, l'altra la osserva seduta e appoggiata ad un bastone</term>
+							<term>Vecchie su panchina ai giardini</term>
+						</keywords>
+					</textClass>
+					<langUsage>
+						<language ident="it-IT">italiano</language>
+						<language ident="fr-FR">francese</language>
+					</langUsage>
+				</profileDesc>
+			</teiHeader>
+
+
+			<text type="cartolina" xml:id="card2">
+				<!-- TRASCRIZIONE -->
+				<body>
+					<div type="front" xml:id="cardFront2">
+						<!--Descizione parte frontale della cartolina-->
+						<figure xml:id="fig2">
+							<graphic url="pics/7694-053F.jpg" />
+
+								<figDesc>
+								INSERIRE_FigDesc_figure INSERIRE_FigDesc_figure INSERIRE_FigDesc_figure 
+								
+								L'immagine ritrae due donne anziane, sedute, una appoggiata a un bastone da passeggio, l'altra impegnata a cucire.
+								
+								Sullo sfondo, dietro la panchina di legno si intravede solo della vegetazione, degli alberi spogli.
+								
+								A destra dell'immagine è presente un bordo scuro recante le informazioni di edizione della cartolina, il titolo e l'autore della foto.
+								</figDesc>
+
+							<head>
+								<title xml:id="title22">Vieilles bretonnes au jardin...</title>
+							</head>
+
+						</figure>
+						
+						<bibl> <!--Informazioni prese da originale su internet-->
+							<unclear reason="illegible"><s> SALON de PARIS <date>1913</date><pc>.</pc></s><pc>-</pc>
+							<s><pc>"</pc>VIEILLES BRETONNES AU JARDIN BODELIO<pc>"</pc></s>
+								<s>143</s><pc>..</pc>
+								<s>M CLEMENT</s><pc>.</pc><pc>-</pc>
+								<s><pc>"</pc>ALTE FRAUEN AUS DER BRETAGNE<pc>"</pc></s>
+								<s><unclear>LORIENT</unclear></s>
+								<s>Selecta</s>
+							</unclear>
+						</bibl>
+
+					</div>
+					<div type="rear" xml:id="cardRear2">
+						<div xml:id="text2" type="message">
+							<p xml:id="testoRetro2_1">
+								<lb/>
+								<placeName ref="#MO">Modena</placeName>
+								<w>li</w>
+								<date when="19170104">
+									<num>4</num>
+									<pc>/</pc>
+									<num>1</num>
+									<pc>-</pc>
+									<num>1917</num>
+									<!-- <pc>.</pc> -->
+								</date>
+							</p>
+							
+							<!--Testo Lettera-->
+							<p xml:id="testoRetro2_2">
+								<!-- <lb/> -->
+								<phr>
+									<w>Intimamente</w>
+									<lb/>
+									<w>Salutandoti</w>
+								</phr>
+								<!-- <lb/> -->
+							</p>
+							<p xml:id="testoRetro2_3">
+								<persName ref="#GC">Giovannino</persName>
+							</p>
+							<cb/>
+						</div>
+						
+						<!-- Indirizzo e destinatario della cartolina-->
+						<div xml:id="AddDest2" >
+							<p xml:id = "indirizzoRetro2_1">
+								<w>Gentilissima</w>
+								<w>Sig.</w>
+								<w>na</w>
+								<lb/>
+
+								<persName ref="#OT">
+									<forename>Oliva</forename><lb/>
+									<surname>Turtura</surname>
+								</persName>
+								<lb/>
+								<address>
+									<addrLine><w>Via</w>
+										<persName>
+											<forename>Girolamo</forename>
+											<surname>Rossi</surname>
+										</persName>
+										<num>58</num>
+									</addrLine>
+								</address>
+								<lb/>
+								<placeName ref="#RV">Ravenna</placeName>
+							</p>
+
+						</div>
+						<div xml:id="timbri2_1" type="destination" >
+							<p>
+
+								<stamp type="postmark"> 
+									<mentioned><unclear reason="illegible"><pc>.</pc>POSTA</unclear></mentioned>
+									<date when="1917-01-04">
+										<num>4</num>
+										<num>1</num>
+										<num>1917</num>
+								</date>
+								</stamp>
+
+
+						<stamp type="postage">francobollo da 5 centesimi del Regno d'Italia</stamp>
+							</p>
+							<p xml:id="address2">
+								<address>
+									<addrLine>Signorina</addrLine>
+									<addrLine>
+										<persName ref="#OT">Oliva Turtura</persName>
+									</addrLine>
+									<addrLine>Via Girolamo Rossi 58</addrLine>
+									<addrLine>
+										<placeName ref="#RV">Ravenna</placeName>
+									</addrLine>
+									<addrLine/>
+								</address>
+							</p>
+						</div>
+					</div>
+					
+					
+				</body>
+			</text>
+
+
+
+			<!--Marcatura Grafica-->
+			<facsimile xml:id="facsimile2">
+
+				<surface xml:id="retro2" start="#cartolinar1">
+				<!--Retro -->
+					<graphic xml:id="retro_postcard_02" url="pics/7694-053R.jpg" width='1619px' height='1053px' />
+
+					<zone xml:id="numCatalogo2" ulx="17" uly="19" lrx="117" lry="103" />
+					
+					<zone xml:id="testoRetro2_4" ulx="55" uly="62" lrx="727" lry="882" />
+					
+					<zone xml:id="indirizzoRetro2_2" ulx="746" uly="224" lrx="1565" lry="1013" />
+					
+					<zone xml:id="timbri2_2" ulx="1307" uly="15" lrx="1604" lry="276" />
+					
+					<zone xml:id="timbri2_3" ulx="1159" uly="99" lrx="1544" lry="482" />
+					
+					<zone xml:id="infRetro" ulx="72" uly="882" lrx="350" lry="915" />
+				</surface>
+					
+					
+
+			</facsimile>
+		</TEI>

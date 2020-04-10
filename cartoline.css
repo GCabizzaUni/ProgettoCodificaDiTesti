@@ -1,0 +1,444 @@
+*{
+font-family: 'Oswald', sans-serif;
+}
+
+body {
+margin:0;
+padding:0;
+}
+
+#barra_nav {
+text-align: center;
+color: #FFFFFF;
+background-color: #333;
+
+position: fixed;
+top: 0;
+width: 100%;
+
+z-index: 1000;
+}
+
+#barra_nav a {
+color: #FFFFFF;
+text-decoration: none;
+}
+
+
+/*_____________________________________*/
+
+* {
+box-sizing: border-box;
+}
+
+.container {
+position: relative;
+}
+
+.mySlides {
+display: none;
+}
+
+.cursor {
+cursor: pointer;
+}
+
+.prev,
+.next {
+cursor: pointer;
+position: fixed;
+top: 40%;
+width: auto;
+padding: 16px;
+margin-top: -50px;
+color: white;
+font-weight: bold;
+font-size: 20px;
+border-radius: 0 3px 3px 0;
+user-select: none;
+-webkit-user-select: none;
+background-color: rgba(0, 0, 0, 0.3);
+}
+
+.next {
+right: 0;
+border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+background-color: rgba(0, 0, 0, 0.8);
+}
+
+.numbertext {
+color: #f2f2f2;
+font-size: 12px;
+padding: 8px 12px;
+position: absolute;
+top: 0;
+}
+
+.caption-container {
+text-align: center;
+background-color: #222;
+padding: 4px;
+color: white;
+position: sticky;
+}
+
+
+#tit_dinamico{
+position: relative;
+top: 30px;
+}
+
+
+
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+
+.column {
+float: left;
+width: 16.66%;
+
+}
+
+
+.demo {
+opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+opacity: 1;
+}
+
+/*_____________________________________*/
+
+.cardframe {
+width: 40%;
+margin: 10%;
+}
+
+.introduzione {
+margin-top: 15%;
+margin: 10%;
+}
+
+svg{
+opacity: 0.4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.flip-card {
+background-color: transparent;
+width: 30%;
+perspective: 1000px;
+float: left;
+margin-left: 10%;
+margin-top: 10%;
+}
+
+.flipPic {
+width: 100%;
+} 
+
+.flip-card-inner {
+position: relative;
+width: 100%;
+height: 90%;
+transition: transform 0.8s;
+transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+position: absolute;
+width: 100%;
+height: 100%;
+-webkit-backface-visibility: hidden; Safari
+backface-visibility: hidden; */
+background-color: green;
+}
+
+.flip-card-front {
+color: black;
+}
+
+.flip-card-back {
+color: black;
+transform: rotateY(180deg);
+}
+
+.fliptext {
+background-color: white;
+text-align: center;
+height: inherit;
+}
+
+
+
+/*_____________________________________*/
+
+
+
+body{
+margin:0;
+}
+
+header {
+font-size: 2em;
+background-color: #0f9623;
+color:white;
+height:50px;
+text-align:center;
+line-height: 1.5;
+margin-top:33px;
+}
+
+.title { 
+font-size: 20px;
+color: green;
+margin: 0;
+padding-bottom: 15px;
+font-weight: bold;
+}
+
+.title:hover {
+color: rgba(255, 225, 166);		
+}
+
+#menu1,#menu2,#menu3{
+height:15px;
+}
+
+#crediti {
+font-size: 0.9em;
+line-height: 1;
+padding: 17px;
+text-align: left;
+margin: 20;
+display:block;
+}
+
+#contenitore1{
+height:1300px;
+margin-top:3%;
+}
+
+#contenitore2{
+height:1300px;
+margin-top:3%;
+}
+
+#sourceDescStile{
+float:right;
+line-height: 1.1;
+margin-left: 1.2%;
+margin-right: 3%;
+width:45%;
+color:black;
+background-color:rgba(255, 225, 166);
+padding:15px;
+padding-left: 30px;
+}
+
+#sourceDescStile1{
+float:left;
+line-height: 1.1;
+margin-left:1.2%;
+width:34%;
+height:65%;
+color:black;
+background-color:rgba(230, 204, 179,0.2);
+padding:15px;
+}
+
+#testo {
+display: inline-block;
+line-height: 1.1;
+width:21%;
+padding:3%;
+text-align:center;
+}
+
+.no {
+display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.handWriting {
+fill:blue;
+stroke:pink;
+stroke-width:5;
+fill-opacity:0.1;
+}
+
+#picture_sig_011{
+fill:blue;
+stroke:pink;
+stroke-width:5;
+fill-opacity:0.1;
+}
+
+#testoRetro, #testoRetro1_1, #testoRetro1_2, #testoRetro1_3,
+#testoRetro2, #testoRetro2_1, #testoRetro2_2, #testoRetro2_3, #testoRetro2_4 {
+fill: blue;
+color: blue;
+}
+
+#testoRetro:not(:hover), #testoRetro1_1:not(:hover), #testoRetro1_2:not(:hover), #testoRetro1_3:not(:hover),
+#testoRetro2:not(:hover), #testoRetro2_1:not(:hover), #testoRetro2_2:not(:hover), #testoRetro2_3:not(:hover), #testoRetro2_4:not(:hover) {
+fill-opacity: 0.0;
+}
+
+#testoRetro:hover, #testoRetro1_1:hover, #testoRetro1_2:hover, #testoRetro1_3:hover,
+#testoRetro2:hover, #testoRetro2_1:hover, #testoRetro2_2:hover, #testoRetro2_3:hover, #testoRetro2_4:hover {
+stroke-width: 6;
+stroke: blue;
+}
+
+/*________________________________________*/
+
+#indirizzoRetro, #indirizzoRetro1, #indirizzoRetro1_1,
+#indirizzoRetro2, #indirizzoRetro2_1, #indirizzoRetro2_2 {
+fill: red;
+color: red;
+}
+
+#indirizzoRetro:not(:hover), #indirizzoRetro1:not(:hover), #indirizzoRetro1_1:not(:hover),
+#indirizzoRetro2:not(:hover), #indirizzoRetro2_1:not(:hover), #indirizzoRetro2_2:not(:hover) {
+fill-opacity: 0.0;
+}
+
+#indirizzoRetro:hover, #indirizzoRetro1:hover, #indirizzoRetro1_1:hover,
+#indirizzoRetro2:hover, #indirizzoRetro2_1:hover, #indirizzoRetro2_2:hover {
+stroke-width: 6;
+stroke: red;
+}
+
+/*________________________________________*/
+
+#timbri1, #timbri1_1, #timbri1_2, #timbri1_3,
+#timbri2, #timbri2_1, #timbri2_2, #timbri2_3 {
+fill: green;
+color: green;
+}
+
+#timbri1:not(:hover), #timbri1_1:not(:hover), #timbri1_2:not(:hover), #timbri1_3:not(:hover),
+#timbri2:not(:hover), #timbri2_1:not(:hover), #timbri2_2:not(:hover), #timbri2_3:not(:hover) {
+fill-opacity: 0.0;
+}
+
+#timbri1:hover, #timbri1_1:hover, #timbri1_2:hover, #timbri1_3:hover,
+#timbri2:hover, #timbri2_1:hover, #timbri2_2:hover, #timbri2_3:hover {
+stroke-width: 6;
+stroke: green;
+}
+
+/*________________________________________*/
+
+#infRetro, #infRetro1_1, #infRetro1_2, #infRetro1_3, #infRetro1_4, #infRetro1_5, #infRetro1_6, #infRetro1_7, #infRetro1_8, #infRetro1_9, #infRetro1_10,
+#infRetro2, #infRetro2_1, #infRetro2_2, #infRetro2_3, #infRetro2_4, #infRetro2_5, #infRetro2_6, #infRetro2_7
+{
+fill: purple;
+color: purple;
+}
+
+#infRetro:not(:hover), #infRetro1_1:not(:hover), #infRetro1_2:not(:hover), #infRetro1_3:not(:hover), #infRetro1_4:not(:hover), #infRetro1_5:not(:hover), #infRetro1_6:not(:hover), #infRetro1_7:not(:hover), #infRetro1_8:not(:hover), #infRetro1_9:not(:hover), #infRetro1_10:not(:hover),
+#infRetro2:not(:hover), #infRetro2_1:not(:hover), #infRetro2_2:not(:hover), #infRetro2_3:not(:hover), #infRetro2_4:not(:hover), #infRetro2_5:not(:hover), #infRetro2_6:not(:hover), #infRetro2_7:not(:hover) {
+fill-opacity: 0.0;
+}
+
+#infRetro:hover, #infRetro1_1:hover, #infRetro1_2:hover, #infRetro1_3:hover, #infRetro1_4:hover, #infRetro1_5:hover, #infRetro1_6:hover, #infRetro1_7:hover, #infRetro1_8:hover, #infRetro1_9:hover, #infRetro1_10:hover,
+#infRetro2:hover, #infRetro2_1:hover, #infRetro2_2:hover, #infRetro2_3:hover, #infRetro2_4:hover, #infRetro2_5:hover, #infRetro2_6:hover, #infRetro2_7:hover {
+stroke-width: 6;
+stroke: purple;
+}
+
+/*________________________________________*/
+
+#numCatalogo, #numCatalogo1_1, #numCatalogo1_2, #numCatalogo2, #numCatalogo2_1, #numCatalogo2_2 {
+fill: brown;
+color: brown;
+}
+
+#numCatalogo:not(:hover), #numCatalogo1_1:not(:hover), #numCatalogo1_2:not(:hover), #numCatalogo2:not(:hover), #numCatalogo2_1:not(:hover), #numCatalogo2_2:not(:hover) {
+fill-opacity: 0.0;
+}
+
+#numCatalogo:hover, #numCatalogo1_1:hover, #numCatalogo1_2:hover, #numCatalogo2:hover, #numCatalogo2_1:hover, #numCatalogo2_2:hover {
+stroke-width: 6;
+stroke: brown;
+}
+
+
+
+
+
+
+
+
+
+.scan_retro2 {
+width: 100%;
+}
+
+.test_quadrato2 {
+width: 100%;
+
+position: absolute;
+top: 0;
+left: 0;
+display: inline-block;
+}
+
+
+
+
+
+
+
+
+.scan_retro {
+display: inline-block;
+
+width: 650;
+height: 415;
+}
+
+.test_quadrato {
+transform-origin:0 0;
+position: absolute;
+left: 0;
+display: inline-block;
+}
+
